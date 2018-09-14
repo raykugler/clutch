@@ -12,7 +12,7 @@ class Slide_Holder extends React.Component{
     
 
 <div className='slide_holder'>
-            <Slideshow />
+            <img src='https://media.graphcms.com//jcnHugirSeGSCwnSrkPi' className='slide_image'/>
 </div>
 
         )}}

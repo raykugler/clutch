@@ -8,7 +8,7 @@ class Top_Bar extends React.Component{
     render(){
         return(
             <div className='top_bar'>
-                <img src='.\images\baseline_shopping_cart_black_18dp.png' className='cart'/>
+                
             </div>
         )    }
 }
