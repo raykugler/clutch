@@ -1,8 +1,7 @@
 import React from 'react';
 import { Query } from 'react-apollo';
 import Q_Helmet from './Q_Helmet';
-import Helmet_Sort from './Helmet_Sort';
-import Check_Box from './Check_Box';
+
 
 
 
@@ -12,13 +11,8 @@ class Single_Product extends React.Component {
         this.state={skustate: this.props.sku}
 }
 
-componentDidMount(){
-//    this.setState={skustate: this.props.sku}
-    console.log(`single_product skustate ${this.props.sku}`)
 
-}
 shopAlert=()=>{
-    console.log('harp');
     alert('This is a demo site.');
 }
    

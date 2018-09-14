@@ -1,7 +1,4 @@
 import React from 'react';
-import Menu_Choice from './Menu_Choice';
-import Menu_Or_Results from './Menu_Or_Results';
-import Big_Brand_Menu from './Big_Brand_Menu';
 import Brand_Menu_Or_Results from './Brand_Menu_Or_Results';
 
 class Brand_Shop_Menu extends React.Component{

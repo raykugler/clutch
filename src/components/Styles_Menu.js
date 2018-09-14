@@ -1,17 +1,12 @@
 import React from 'react';
-import Helmet_Table from './Helmet_Table';
-import Main from './Main';
+
 import Helmet_Sort from './Helmet_Sort';
 
 class Styles_Menu extends React.Component{
     constructor(props){
         super(props)
     }   
-    componentDidMount=(client)=>{
-        console.log(`main ${this.props.type34}`);
-        console.log(`main ${this.props.silverstate}`);
-        console.log(`main ${this.props.type}`);
-    }
+
 
 render(){
     return(

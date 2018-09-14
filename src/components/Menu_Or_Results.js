@@ -1,7 +1,5 @@
 import React from 'react';
 import Results from './Results';
-import Color_Menu from './Color_Menu';
-import Type_Menu from './Type_Menu';
 import Menu_Choice from './Menu_Choice';
 
 
@@ -20,14 +18,11 @@ class Menu_Or_Results extends React.Component{
     resultsHandler = (e) => {
         this.setState({choice: e});
         this.setState({display: 'results'});
-        console.log(`cra ${e}`);
-        console.log(`colorChoice ${this.state.choice}`)
+   
     }  
     resultstypeHandler = (e) => {
         this.setState({choice: e});
         this.setState({display: 'results'});
-        console.log(`results cra ${e}`);
-        console.log(`typeChoice ${this.state.choice}`)
     }  
 
 colormenuOrResults =() => {
@@ -42,11 +37,8 @@ colormenuOrResults =() => {
 typemenuOrResults =() => {
     if(this.state.display === 'typemenu'){
     this.setState({display: 'results'})
-    console.log('typeye')
     }
     else{
-        console.log('typeno')
-
         this.setState({display: 'typemenu'})
     }
 }

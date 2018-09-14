@@ -18,24 +18,17 @@ class Helmet_Sort extends React.Component {
     }
     back=()=>{
         this.setState({singleitem: false})
-        console.log('test')
+       
     }
     singleProduct=(id)=>{
         if(this.state.singleitem===false){
             this.setState({sku: id})
             this.setState({singleitem: true});
-        console.log(this.state.singleitem);
-     
-        console.log(`single product ${id}`);
-
-        console.log(`if helmet sort ${this.state.sku}`);
-    }
+       }
     else{
     this.setState({singleitem: false});
     this.setState({sku: 0})
-    console.log(`else helmet sort ${this.state.sku}`);
-    console.log(this.state.singleitem);
-
+    
     }       
     }
 
@@ -45,7 +38,6 @@ class Helmet_Sort extends React.Component {
         var items_show='';
 
         if (this.state.singleitem === false){
-            console.log(`retern if ${this.props.sku}`)
             items_show= <div className='helmet_sort'> <Helmet_Table 
             choice={this.props.choice} 
             singleProduct={this.singleProduct} 
@@ -57,7 +49,6 @@ class Helmet_Sort extends React.Component {
 
         }
         else{
-            console.log(`else return ${this.state.sku}`)
             items_show=
             <div className='single_page'>
             <Single_Product sku={this.state.sku} back={this.back}/>

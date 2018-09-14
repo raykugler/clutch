@@ -15,7 +15,7 @@ class Brands_Button_Holder extends React.Component{
     
       onCloseModal = (event) => {
         this.setState({ open: false });
-        console.log(this.state.open);
+ 
       };
     render(){
         return(

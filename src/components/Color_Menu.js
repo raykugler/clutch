@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter, Route , Switch,  Link} from 'react-router-dom';
 class Color_Menu extends React.Component{
     constructor(props){
         super(props)

@@ -16,10 +16,7 @@ class Clutch extends React.Component {
         super(props)
     }
     
-    test2=()=>{
-        console.log('atmos test')
-    }
-   
+    
     render(props){
         return(
             <div className='main'>

@@ -1,18 +1,13 @@
 import React from 'react';
 import { Query } from 'react-apollo';
 import Q_Helmet from './Q_Helmet';
-import Helmet_Sort from './Helmet_Sort';
-import Check_Box from './Check_Box';
 class Blue_Helmet_List extends React.Component {
     constructor(props){
         super(props)
         this.state={bluestate: 'blue'
     }
 }
-    componentDidMount(){
-        console.log(`Helemt List silverstate is ${this.props.silverstate}`);
-        console.log(`Helemt List blackstate is ${this.props.blackstate}`);
-    }
+
    
     render(clutches){
         

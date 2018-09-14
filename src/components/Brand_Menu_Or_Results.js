@@ -13,9 +13,7 @@ class Brand_Menu_Or_Results extends React.Component{
             brand:''
         }
     }
-componentDidMount(){
-    console.log(this.state.brand);
-}
+
 bigBrandBack=()=>{
     this.setState({branddisplay: 'menu'})
 }
@@ -23,20 +21,14 @@ bigBrandBack=()=>{
 biltwellbrandChoice=()=>{
         this.setState({brand: 'biltwell'})
         this.setState({branddisplay: 'results'})
- 
-        console.log(`brand menu or results ${this.state.brand}`);
-    }
+     }
     bellbrandChoice=(e)=>{
         this.setState({brand: 'bell'})
         this.setState({branddisplay: 'results'})
- 
-        console.log(`brand menu or results ${this.state.brand}`);
     }
 shoeibrandChoice=(e)=>{
         this.setState({brand: 'shoei'})
         this.setState({branddisplay: 'results'})
- 
-        console.log(`brand menu or results ${this.state.brand}`);
     }
   
 

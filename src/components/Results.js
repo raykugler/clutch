@@ -6,10 +6,7 @@ class Results extends React.Component{
     constructor(props){
         super(props)
     }
-    componentDidMount(){
-        console.log(`Results colorchoice is ${this.props.choice}`);
-        
-    }
+   
     render(props){
         return(
             <div className='results'>

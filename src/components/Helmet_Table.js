@@ -18,7 +18,6 @@ import Half_Helmet_List from './Half_Helmet_List';
 import Bell_Helmet_List from './Bell_Helmet_List';
 import Shoei_Helmet_List from './Shoei_Helmet_List';
 import Biltwell_Helmet_List from './Biltwell_Helmet_List';
-import Helmet_Sort from './Helmet_Sort';
 
 
 const client = new ApolloClient({

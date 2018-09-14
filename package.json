@@ -1,16 +1,22 @@
 {
-  "name": "indecision-app",
+  "name": "clutch-app",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": "10.6.0"
+  },
   "author": "Ray",
   "license": "MIT",
   "scripts": {
-    "serve": "live-server public/",
-    "build": "webpack",
-    "dev-server": "webpack-dev-server"
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
+    "dev-server": "webpack-dev-server",
+    "start": "node server/server.js",
+    "heroku-postbuild": "yarn run build:prod"
   },
   "dependencies": {
-    "apollo-boost": "^0.1.15",
+    "ajv": "^6.0.0",
+    "apollo-boost": "^0.1.12",
     "babel-cli": "6.24.1",
     "babel-core": "6.25.0",
     "babel-loader": "7.1.1",
@@ -18,23 +24,36 @@
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
     "css-loader": "0.28.4",
-    "graphql": "^0.13.2",
+    "express": "4.15.4",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "graphql": "^0.11.0",
     "graphql-tag": "^2.9.2",
-    "live-server": "^1.2.0",
-    "node-sass": "4.9.2",
+    "normalize": "^0.3.1",
     "normalize.css": "7.0.0",
     "react": "16.0.0",
-    "react-apollo": "^2.1.11",
+    "react-apollo": "^2.1.9",
+    "react-coverflow": "^0.2.14",
+    "react-datetime": "^2.15.0",
     "react-dom": "16.0.0",
+    "react-media": "^1.8.0",
     "react-modal": "2.2.2",
-    "react-responsive-modal": "^3.3.0",
+    "react-redux": "5.0.7",
+    "react-router": "^4.3.1",
     "react-router-dom": "4.2.2",
     "react-slick": "^0.23.1",
-    "react-slideshow-image": "^1.0.0",
-    "sass-loader": "7.0.3",
+    "react-typekit": "^1.1.3",
+    "redux": "4.0.0",
+    "scroll-into-view": "^1.9.3",
     "style-loader": "0.18.2",
     "validator": "8.0.0",
+    "webpack-serve": "^2.0.2"
+  },
+  "devDependencies": {
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
     "webpack": "3.1.0",
     "webpack-dev-server": "2.5.1"
   }
 }
+

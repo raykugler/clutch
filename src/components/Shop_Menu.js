@@ -1,5 +1,4 @@
 import React from 'react';
-import Menu_Choice from './Menu_Choice';
 import Menu_Or_Results from './Menu_Or_Results';
 
 class Shop_Menu extends React.Component{
@@ -25,7 +24,7 @@ class Shop_Menu extends React.Component{
     handleBigBrandMenuClick=()=>{
         this.setState({menu: 'bigbrand'});
         this.setState({menuToggle: 0});
-        console.log('big brand');
+
     }
 
     render(){

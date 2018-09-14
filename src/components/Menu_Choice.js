@@ -2,8 +2,7 @@ import React from 'react';
 import Color_Menu from './Color_Menu';
 import Brand_Menu from './Brand_Menu';
 import Type_Menu from './Type_Menu';
-import Results from './Results';
-import Big_Brand_Menu from './Big_Brand_Menu';
+
 
 class Menu_Choice extends React.Component{
     constructor(props){
