@@ -16,6 +16,16 @@
     margin-top: 10px;
     margin-left: 20px;
 }
+.close{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    color: black;
+    grid-column: -2/-1;
+    grid-row: 1/2;
+    margin-top: 1px;
+    margin-left: 33px;
+}
 .tabs{
     grid-column: 1/-1;
     grid-row: 2/3;

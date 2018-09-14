@@ -25,7 +25,7 @@ class Brands_Button_Holder extends React.Component{
 
             <div className='brands_button_holder'>
             <Modal open={this.state.open} onClose={this.onCloseModal}  center>
-              <Brand_Shop_Menu/>
+              <Brand_Shop_Menu onCloseModal={this.onCloseModal}/>
             </Modal>
             <img src='.\images\button_image_two.png' 
             className='button_image_one' 

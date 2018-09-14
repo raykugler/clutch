@@ -14,6 +14,7 @@ class Brand_Shop_Menu extends React.Component{
     render(){
         return(
             <div className='shop_menu'>
+            <p className='close' onClick={this.props.onCloseModal}>X</p>
             <div className='long_stripes'>
             <div className='blue_long_stripe'></div>
             <div className='yellow_long_stripe'></div>

@@ -29,7 +29,7 @@ class Styles_Button_Holder extends React.Component{
             
             <div className='styles_button_holder'  >
             <Modal open={this.state.open} onClose={this.onCloseModal}  center>
-              <Shop_Menu silver={this.props.silver} silverstate={this.props.silverstate}/>
+              <Shop_Menu onCloseModal={this.onCloseModal}/>
             </Modal>
         
             <img src='.\images\button_image_one.png' className='button_image_one'  open={this.state.open} onClick={this.onOpenModal}  onClose={this.onCloseModal} open={this.state.open}/>

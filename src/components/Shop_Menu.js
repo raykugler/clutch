@@ -31,6 +31,7 @@ class Shop_Menu extends React.Component{
         return(
             <div className='shop_menu'>
             <p className='search_by'>search by...</p>
+            <p className='close' onClick={this.props.onCloseModal}>X</p>
             <div className='tabs'>
                 <div className='color_tab tab' 
                 onClick={this.handleColorMenuClick}>
