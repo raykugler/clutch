@@ -7,7 +7,6 @@ import Box_Frame from './Box_Frame';
 import Footer_Menu from './Footer_Menu';
 import Bottom_Box_Frame from './Bottom_Box_Frame';
 import Top_Bar from './Top_Bar';
-import { BrowserRouter, Route , Switch,  Link} from 'react-router-dom';
 
 
 
