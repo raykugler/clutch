@@ -12,7 +12,7 @@ const routes = (
     <BrowserRouter>
     <div>
     <Route path='/' component={Clutch} exact={true}/>
-    <Route path='/in_the_wild' component={In_The_Wild} />
+    
     </div>
     
     </BrowserRouter>
