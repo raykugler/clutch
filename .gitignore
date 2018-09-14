@@ -1,5 +1,5 @@
 node_modules/*
-!node_modules/react-responsive-modal/
+\!react-responsive-modal/
 
 public/bundle.js
 public/bundle.js.map
