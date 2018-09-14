@@ -1,0 +1,31 @@
+.brand_menu{
+    grid-column: 1/-1;
+    grid-row: 3/-1;
+    display: grid;
+    margin-top: 120px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.brand_block{
+    grid-column: 1/-1;
+    justify-self: center;
+    width: 170px;
+    height: 72px;
+    background-color: #eeeedf;
+    border: 1px solid gray;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 10px;
+}
+
+.logo_image{
+    width: 150px;
+    height: auto;
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    justify-self: center;
+    align-self: center;
+}

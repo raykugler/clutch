@@ -1,0 +1,73 @@
+.helmet_menu_image{
+    height: 90px;
+    width: auto;
+    justify-self: center;
+    margin-left: -35px;
+    margin-top: -5px;
+}
+
+.helmet_page{
+    grid-column: 1/-1;
+
+}
+
+.helmet_sort{
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+ 
+}
+
+.helmet_table{
+    list-style-type: none;
+    grid-column: 1/-1;
+    margin-left: -20px;
+}
+
+.shop_block{
+    list-style-type: none;
+   
+    width: 80%;
+    height: 100px;
+    background-color: #eeeedf;
+    border: 1px solid gray;
+    margin-bottom: 2px;
+    border-radius: 12px;
+}
+.helmet_description{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .8em;
+    font-weight: 400;
+    color: #70706e;
+    float: right;
+    margin-top: -80px;
+    margin-right: 20px;
+}
+.helmet_price{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #27a327;
+    text-align: right;
+    margin-top: -44px;
+    margin-right: 10px;
+}
+.helmet_brand{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #70706e;
+    margin-top: -104px;
+    margin-right: 99px;
+    float: right;
+    z-index: 10;
+
+}
+.helmet_name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #70706e;
+    float: right;
+    margin-top: -100px;
+    margin-right: 5px;
+}

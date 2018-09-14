@@ -1,0 +1,43 @@
+body{
+    overflow: hidden;
+}
+
+.main{
+    height: 100vh;
+    background-color: #eeeedf;
+    display: grid;
+    grid-template-columns: 34px 35px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 35px 40px 40px 40px 40px 40px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow-x: hidden;
+}
+
+.temp_bottom_filler{
+    grid-column: 1/-1;
+    grid-row: -2/-1;
+    height: 300px;
+    widows: 100%;
+}
+
+
+
+
+
+.low_block{
+    grid-column: 1/-1;
+    grid-row: 6/7;
+    height: 100%;
+    width: 100%;
+    background-color: #eeeedf;
+    z-index: 3;
+    margin-top: 50px;
+}
+
+
+/*
+#D9CC16
+#5FB446
+#E47B13
+#707070
+    clip-path: polygon(8% 21%, 13% 72%, 100% 65%, 100% 21%);
+
+*/

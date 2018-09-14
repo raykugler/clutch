@@ -1,0 +1,71 @@
+.slide_holder{
+    grid-column: 3/-1;
+    grid-row: 1/7;
+    background-color: #eeeedf;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    overflow: hidden;
+    height: 100%;
+    width: auto;
+    margin-top: -10px;    
+}
+
+.slide_image{
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    position: relative;
+    top: 0;
+}
+.react-slideshow-container{
+
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+.rays-slideshow-container{
+
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    height: auto;
+    width: 100%;
+    z-index: 0;
+}
+.slide_show{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.each_fade{
+    grid-column: 1/-1;
+    width: 100%;
+    height: auto;
+}
+.image-container{
+    width: 100%;
+}
+.react-slideshow-container-wide{
+    width: 100%;
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.react-slideshow-container-wide-two{
+    width: 100%;
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.react-slideshow-fade-wrapper .react-slideshow-fade-images-wrap{
+    position: relative;
+    top: 0;
+}

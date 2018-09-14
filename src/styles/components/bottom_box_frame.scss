@@ -1,0 +1,77 @@
+.bottom_box_frame{
+    grid-column: 1/-1;
+    grid-row: -2/-1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    overflow: hidden;
+}
+.bottom_big_square{
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    height: 220%;
+    width: 106%;
+    transform: rotate(-9deg);
+    border: 35px solid #5a83ac;
+    border-radius: 94px;
+    position: relative;
+    top: 110px;
+    left: -109px;
+}
+
+.bottom_yellow_square{
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    height: 202%;
+    width: 106%;
+    transform: rotate(-9deg);
+    border: 25px solid #D9CC16;
+    border-radius: 54px;
+    position: relative;
+    top: 153px;
+    right: 127px;
+    z-index: 4;
+}
+
+.bottom_green_square{
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    height: 233%;
+    width: 106%;
+    transform: rotate(-9deg);
+    border: 10px solid #5FB445;
+    border-radius: 26px;
+    position: relative;
+    right: 119px;
+    z-index: 4;
+    top: 183px;
+}
+
+.bottom_orange_square{
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+    height: 197%;
+    width: 106%;
+    transform: rotate(-9deg);
+    border: 7px solid #E47B13;
+    border-radius: 15px;
+    position: relative;
+    top: 197px;
+    right: 130px;
+    z-index: 4;
+}
+
+.bottom_clutch_title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5em;
+    color: #707070 ;
+ 
+    font-weight: 600;
+    transform: rotate(-8.2deg);
+    font-style: italic;
+    z-index: 5;
+    margin-bottom: 50px;
+    margin-left: 40px;
+
+
+}

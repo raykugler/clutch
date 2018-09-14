@@ -1,0 +1,111 @@
+.color_menu{
+    grid-column: 1/-1;
+    grid-row: 3/-1;
+    margin-top: 170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.color_block{
+    width: 70px;
+    height: 90px;
+    justify-self: center;
+    border: 1px solid gray;
+    background-color: #eeeedf;
+    border-radius: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    -webkit-box-shadow: 2px 2px 6px -1px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 2px 2px 6px -1px rgba(0, 0, 0, 0.35);
+    box-shadow: 2px 2px 6px -1px rgba(0, 0, 0, 0.35);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+
+.color_menu_text{
+    grid-column: 1/-1;
+    grid-row: -2/-1;
+    font-family: 'Segoe UI', sans-serif;
+    color: #70706e;
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.color_circle{
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+    width: 30px;
+    height: 30px;
+    align-self: flex-start;
+    justify-self: center;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin-top: 9px;
+}
+.silver_circle {
+    border: 5px solid silver;
+}
+.white_circle {
+    border: 5px solid rgb(252, 252, 252);
+}
+.black_circle {
+    border: 5px solid rgb(0, 0, 0);
+}
+.red_circle {
+    border: 5px solid rgb(255, 1, 1);
+}
+.gold_circle {
+    border: 5px solid gold;
+}
+.flat_black_circle {
+    border: 5px solid rgb(46, 46, 46);
+}
+.blue_circle {
+    border: 5px solid rgb(8, 65, 255);
+}
+.orange_circle {
+    border: 5px solid rgb(255, 115, 0);
+}
+.pink_circle {
+    border: 5px solid rgb(255, 0, 179);
+}
+.purple_circle {
+    border: 5px solid rgb(204, 0, 255);
+}
+.row_one{
+    grid-row: 1/2;
+}
+.row_two{
+    grid-row: 2/3;
+}
+.row_three{
+    grid-row: 3/4;
+}
+.row_four{
+    grid-row: 4/5;
+}
+.row_five{
+    grid-row: 5/6;
+}
+.column_one{
+    grid-column: 2/3;
+}
+.column_two{
+    grid-column: 3/4;
+}
+
+.column_three{
+    grid-column: 4/5;
+}
+ .column-four{
+     grid-column: 5/6;
+ }

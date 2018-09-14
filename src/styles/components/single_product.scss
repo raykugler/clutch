@@ -1,0 +1,184 @@
+.single_item_block{
+    list-style-type: none;
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+
+    margin-bottom: 2px;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 180px 1fr 1fr 1fr;
+
+}
+.photo_block{
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 340px 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+.photo_list{
+    list-style-type: none;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.helmet_menu_image_one{
+    height: 200px;
+    width: auto;
+    
+    align-self: center;
+    justify-self: center;
+    border-radius: 20px;
+   
+}
+.helmet_menu_image_two{
+    height: 100px;
+    width: auto;
+    border-radius: 20px;
+   
+}
+.helmet_menu_image_three{
+    height: 100px;
+    width: auto;
+    border-radius: 20px;
+
+}
+.helmet_menu_image_four{
+    height: 100px;
+    width: auto;
+    border-radius: 20px;
+}
+.helmet_menu_image_five{
+    height: 100px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.single_helmet_description{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.single_helmet_price{
+    grid-column: 5/6;
+    grid-row: 6/7;
+    color: rgb(14, 124, 14);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    font-weight: 600;
+    justify-self: center;
+    margin-top: -20px;
+    z-index: 23;
+}
+.single_helmet_brand{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    z-index: 10;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-top: 12px;
+}
+.single_helmet_name{
+    grid-column: 3/6;
+    grid-row: 1/2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    margin-left: 15px;
+    text-align: inherit;
+    margin-top: 15px;
+}
+.return_button{
+    grid-column: 2/5;
+    grid-row: 3/4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: 0px;
+    background-color: #5a83ac;
+    margin-right: -30px;
+    margin-left: 100px;
+    height: 19px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+.single_page{
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    display: grid;
+    grid-template-columns: 1fr 180px 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.single_details{
+    grid-row: 2/3;
+    grid-column: 1/-1;
+    background-color: #eeeedf;
+    border: 1px solid gray;
+    border-radius: 25px;
+    justify-self: center;
+    display: grid;
+    margin-top: -40px;
+
+height: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.single_long_description{
+    grid-column: 2/-2;
+    grid-row: 3/4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    margin-right: 7px;
+
+}
+.image_holder_one{
+    grid-row: 2/3;
+    grid-column: 1/-1;
+    justify-self: center;
+}
+.image_holder_two{
+  
+    grid-row: 3/4;
+    grid-column: 1/-1;
+    justify-self: left;
+    margin-left: 202px;
+    margin-top: -20px;
+}
+.image_holder_three{
+    grid-row: 3/4;
+    grid-column: 1/-1;
+    justify-self: left;
+    margin-left: 107px;
+
+margin-top: -20px;
+}
+.image_holder_four{
+    grid-row:3/4;
+    grid-column: 1/-1;
+    margin-left: 12px;
+    margin-top: -20px
+}
+.image_holder_five{
+    grid-row: 3/4;
+    grid-column: 1/-1;
+    justify-self: end;
+    margin-right: 50px;
+
+}
+.single_cart{
+    height: 17px;
+    margin-right: -30px;
+    align-self: center;
+    justify-items: end;
+}

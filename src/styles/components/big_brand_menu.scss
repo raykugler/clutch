@@ -1,0 +1,57 @@
+.big_brand_menu{
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    display: grid;
+    margin-top: 60px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.big_brand_block{
+    grid-column: 1/-1;
+    justify-self: center;
+    width: 220px;
+    height: 172px;
+    background-color: #eeeedf;
+    border: 1px solid gray;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 10px;
+}
+
+.big_logo_image{
+    width: 150px;
+    height: auto;
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    justify-self: center;
+    align-self: start;
+    margin-top: 10px;
+}
+.big_brand_title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.2em;
+    font-weight: 600;
+    color: #70706e;
+    margin-left: 39px;
+    float: right;
+    z-index: 10;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    margin-top: 8px;
+}
+.big_brand_text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.7em;
+    font-weight: 500;
+    color: black;
+    margin-left: 5px;
+    float: right;
+    z-index: 10;
+    grid-column: 1/-1;
+    margin-right: 5px;
+    text-align: center;
+    grid-row: 2/3;
+}
