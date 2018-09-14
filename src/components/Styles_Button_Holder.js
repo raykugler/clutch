@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-import Modal from 'react-responsive-modal';
+import Modal from '..\..\src/react-responsive-modal/';
 import Shop_Menu from './Shop_Menu';
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Fade } from 'react-slideshow-image';
+import { Fade } from '..\react-slideshow-image/';
 
 const fadeImages = [
   'https://media.graphcms.com//jcnHugirSeGSCwnSrkPi',

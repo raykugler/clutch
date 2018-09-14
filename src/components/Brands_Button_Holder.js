@@ -1,5 +1,5 @@
 import React from 'react';
-import Modal from 'react-responsive-modal';
+import Modal from '..\..\src/react-responsive-modal/';
 import Brand_Shop_Menu from './Brand_Shop_Menu';
 
 class Brands_Button_Holder extends React.Component{
