@@ -4,6 +4,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    margin-bottom: 0px;
+    z-index: 6;
 }
 
 .big_square{
@@ -20,6 +22,8 @@
     display: grid;
     grid-template-columns: 1fr 80px;
     grid-template-rows: 1fr 80px;
+    justify-self: none;
+    margin-top: none;
 }
 
 .yellow_square{

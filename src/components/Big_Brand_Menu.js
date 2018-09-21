@@ -9,8 +9,8 @@ class Big_Brand_Menu extends React.Component{
   
 render(){
     return(
-        <div className='big_brand_menu'>
-            <p className='big_brand_title'> Our Brands </p>
+        <nav className='big_brand_menu'>
+            <h1 className='big_brand_title'> Our Brands </h1>
             <div className='big_brand_block' onClick={this.props.biltwellbrandChoice}>
                 <img src='./images/biltwell-logo-new.png' className='big_logo_image' />
                 <p className='big_brand_text'>
@@ -40,7 +40,7 @@ render(){
 
            
 
-        </div>
+        </nav>
     )
 }
 }
